@@ -12,7 +12,7 @@ LABEL maintainer="https://www.linkedin.com/in/elenasukhorukova/"
 RUN echo 'Binary::apt::APT::Keep-Downloaded-Packages "true";' > /etc/apt/apt.conf.d/keep-cache; \
   apt-get update -qq \
   && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
-    build-essential apt-transport-https  gnupg2 curl wget less
+    build-essential apt-transport-https  gnupg2 curl wget less nano
 
 ARG NODE_MAJOR=18
 
