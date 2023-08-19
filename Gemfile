@@ -5,7 +5,7 @@ ruby "3.2.2"
 
 gem "rails", "~> 7.0.5"
 gem "sprockets-rails"
-gem "puma", "~> 5.0"
+gem "puma", "~> 5.6"
 gem "bootsnap", require: false
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
