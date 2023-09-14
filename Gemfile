@@ -17,7 +17,7 @@ gem "jbuilder"
 
 gem "pg", "~> 1.1"
 gem "redis", "~> 4.0"
-gem 'sidekiq', '~> 7.0.2'
+gem 'sidekiq', '~> 7.1.3'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
